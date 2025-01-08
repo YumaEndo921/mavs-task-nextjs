@@ -2,7 +2,6 @@
 import dotenv from 'dotenv';
 import process from 'process';
 import Sequelize from 'sequelize';
-import config from '../config.js';
 import Users from './users.js';
 import Articles from './articles.js';
 // .envファイルから環境変数をロード
